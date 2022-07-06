@@ -56,6 +56,7 @@ h1,h2,h3,h4,h5,h6{
 .flex-container{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .donation-amount{
     background-color: rgba(220, 220, 220, 0.226);
@@ -184,5 +185,50 @@ h1,h2,h3,h4,h5,h6{
     font-size: 12px;
     font-weight: 300;
 }
-
-
+/* css for my part  */
+.my-thoughts{
+    margin: 100px 0;
+}
+.my-thoughts h4{
+    margin-bottom: 25px;
+}
+.my-thoughts p{
+    margin-bottom: 25px;
+}
+.my-thought1{
+    background-color: rgba(169, 169, 169, 0.226);
+    width: 460px;
+    height: 350px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto 0;
+    margin-right: 50px;
+}
+.my-thought2{
+    background-color: rgba(255, 166, 0, 0.308);
+    width: 460px;
+    height: 350px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 5px;
+}
+.my-thought2 img{
+    width: fit-content;
+    height: 20px;
+    margin: auto;
+}
+.my-thought2 span{
+    font-size: 20px;
+}
+.icon{
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+}
+.inner-thoughts{
+    background-color: linen;
+    padding: 10px 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
